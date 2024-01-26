@@ -8,7 +8,7 @@ nav > div > div {
     width: 0.1vw;
     height: 2vw;
 }
-.nav-link {
+.nav-link, label {
     font-size: 0.8vw;
 }
 
@@ -30,6 +30,51 @@ main {
     width: 85%;
     height: 91vh;
     overflow: hidden;
+}
+.index-section {
+    top: 45%;
+}
+.index-section > img {
+    width: 6vw;
+    padding: 0.2vw;
+}
+.index-section > h1, .form-title {
+    font-size: 3vw;
+    padding: 1vw;
+}
+.index-title {
+    top: 60%;
+    font-size: 1vw;
+    padding: 0.5vw;
+}
+.carousel-indicators, .carousel-control-prev-icon, .carousel-control-next-icon {
+    scale: 2;
+}
+.carousel-item {
+    transition: transform 2s ease-in-out;
+}
+
+form > h1 {
+    font-size: 2vw;
+}
+input, select {
+    height: 1.3vw;
+    font-size: 0.6vw;
+}
+.form-check {
+    padding-left: 0;
+}
+.form-check > .form-check-input {
+    margin-left: 0;
+    width: 1.6vw;
+    height: 0.8vw;
+}
+.divider div {
+    width: 0.3vw;
+    height: 10vw;
+}
+.divider p {
+    font-size: 1.5vw;
 }
 
 .gallery > div > img {
