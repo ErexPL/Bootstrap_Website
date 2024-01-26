@@ -1,9 +1,35 @@
 header {
     height: 9vh;
 }
-
 .navbar-brand {
     width: 3vw;
+}
+nav > div > div {
+    width: 0.1vw;
+    height: 2vw;
+}
+.nav-link {
+    font-size: 0.8vw;
+}
+
+aside {
+    width: 15%;
+    height: 91vh;
+}
+.card-body {
+    padding: 1vw;
+}
+.card-body > * {
+    font-size: 0.6vw;
+}
+.card-title {
+    font-size: 1vw;
+}
+
+main {
+    width: 85%;
+    height: 91vh;
+    overflow: hidden;
 }
 
 .gallery > div > img {
@@ -15,7 +41,6 @@ header {
     transition: 1s ease;
 }
 .gallery > div {
-    border-radius: 0.5vw;
     transition: 0.5s ease;
 }
 .gallery > div:hover {
