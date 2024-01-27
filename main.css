@@ -8,7 +8,7 @@ nav > div > div {
     width: 0.1vw;
     height: 2vw;
 }
-.nav-link, label {
+.nav-link, .form-label, button[type="submit"] {
     font-size: 0.8vw;
 }
 
@@ -57,17 +57,16 @@ main {
 form > h1 {
     font-size: 2vw;
 }
-input, select {
-    height: 1.3vw;
+.form-control, .form-select, .form-check-label {
     font-size: 0.6vw;
 }
-.form-check {
-    padding-left: 0;
-}
 .form-check > .form-check-input {
-    margin-left: 0;
     width: 1.6vw;
     height: 0.8vw;
+}
+button[type="submit"] {
+    width: 4.5vw;
+    height: 2vw;
 }
 .divider div {
     width: 0.3vw;
