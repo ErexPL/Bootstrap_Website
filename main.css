@@ -5,16 +5,23 @@ header {
     width: 3vw;
 }
 .nav-divider {
-    width: 0.1vw;
-    height: 2vw;
+    width: 0.1vmax;
+    height: 2vmax;
 }
 .nav-link, .form-label, .submit-btn {
-    font-size: 0.8vw;
+    font-size: 0.8vmax;
 }
 
 aside {
     width: 15%;
     min-height: calc(100vh - 9vmin);
+}
+.card-1 {
+    width: 13%;
+}
+.card-2 {
+    width: 13%;
+    top: 50%;
 }
 .card-body {
     padding: 1vw;
