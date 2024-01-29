@@ -11,8 +11,8 @@
   <header class="w-100">
     <nav class="navbar bg-dark h-100" data-bs-theme="dark">
       <div class="container-fluid">
-        <img class="navbar-brand ms-3 me-3" src="imgs/logo_white.png" alt="Website logo"></img>
-        <div class="bg-light ms-4 me-5"></div>
+        <img class="nav-brand ms-3 me-3" src="imgs/logo_white.png" alt="Website logo"></img>
+        <div class="bg-light ms-4 me-5 nav-divider"></div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row gap-5">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
@@ -64,6 +64,8 @@
             <option>Other</option>
           </select>
         </div>
+        <label for="customRange1" class="form-label">Excitement</label>
+        <input type="range" class="form-range" id="customRange1">
         <div class="col-12">
           <div class="form-check form-switch d-flex align-items-center p-0">
             <input class="form-check-input m-0" type="checkbox" role="switch" id="flexSwitchCheckDefault">
@@ -71,10 +73,10 @@
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary rounded-4">Sign up</button>
+          <button type="submit" class="btn btn-primary rounded-4 submit-btn">Sign up</button>
         </div>
       </form>
-      <div class="d-flex flex-column align-items-center divider">
+      <div class="d-flex flex-column align-items-center form-divider">
         <div class="bg-dark shadow-lg"></div>
         <p class="pt-3 fw-bold">OR</p>
         <div class="bg-dark shadow-lg"></div>
@@ -96,7 +98,7 @@
           </div>
         </div>     
         <div class="col-12">
-          <button type="submit" class="btn btn-primary rounded-4">Sign in</button>
+          <button type="submit" class="btn btn-primary rounded-4 submit-btn">Sign in</button>
         </div>
       </form>
     </section>
