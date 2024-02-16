@@ -1,6 +1,3 @@
-header {
-    height: 9vmin;
-}
 .nav-brand {
     width: 3vw;
 }
@@ -11,7 +8,6 @@ header {
 .nav-link, .form-label, .submit-btn {
     font-size: 0.8vmax;
 }
-
 .card-body {
     padding: 1vw;
 }
@@ -20,13 +16,6 @@ header {
 }
 .card-title {
     font-size: 1vw;
-}
-
-main {
-    min-height: calc(100vh - 9vmin);
-}
-.index-section {
-    top: 45%;
 }
 .index-section-logo {
     width: 6vw;
@@ -39,13 +28,6 @@ main {
     font-size: 1vw;
     padding: 0.75vw;
 }
-.carousel-indicators, .carousel-control-prev-icon, .carousel-control-next-icon {
-    scale: 1.4;
-}
-.carousel-item {
-    transition: transform 2s ease-in-out;
-}
-
 form > h1 {
     font-size: 2vw;
 }
@@ -70,14 +52,4 @@ form > h1 {
 }
 .form-divider p {
     font-size: 1.5vw;
-}
-
-.img-container {
-    min-width: 600px;
-    scale: 0.9;
-    transition: 0.5s ease;
-}
-.img-container:hover {
-    scale: 1.05;
-    transition: 1s ease;
 }
