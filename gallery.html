@@ -3,52 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
   <link rel="icon" type="image/x-icon" href="imgs/icon.ico">
   <title>Pristine Pixel | Gallery</title>
 </head>
-<body class="d-flex flex-wrap h-100">
-  <header class="w-100">
+<body class="d-flex flex-wrap h-100" style="overflow-y: hidden;">
+  <header class="w-100" style="height: 9vh;">
     <nav class="navbar bg-dark h-100" data-bs-theme="dark">
       <div class="container-fluid">
-        <img class="nav-brand ms-3 me-3" src="imgs/logo_white.png" alt="Website logo"></img>
-        <div class="bg-light ms-4 me-5 nav-divider"></div>
+        <img class="ms-3 me-3" src="imgs/logo_white.png" alt="Website logo" style="width: 3vw;"></img>
+        <div class="bg-light ms-4 me-5" style="width: 0.1vmax; height: 2vmax;"></div>
         <ul class="d-flex flex-row navbar-nav me-auto gap-5">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
-          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html" style="font-size: 0.8vmax;">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="form.html" style="font-size: 0.8vmax;">Form</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html" style="font-size: 0.8vmax;">Gallery</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  <aside class="text-bg-secondary d-flex flex-wrap progress-bar-striped col-2 p-1">
+  <aside class="text-bg-secondary d-flex flex-wrap progress-bar-striped col-2 p-2" style="height: 91vh;">
     <div class="card shadow-lg m-5 rounded-4">
       <img src="imgs/w3schools.png" alt="Code on laptop" class="rounded-top-4">
-      <div class="card-body h-50">
-        <h5 class="card-title">W3Schools</h5>
-        <p class="card-text">Problems with coding, the urge to learn something, lack of understanding - you will solve all of those things on W3Schools.</p>
-        <a href="https://www.w3schools.com/" target="blank" class="btn btn-primary">Check it out</a>
+      <div style="padding: 1vw;">
+        <h5 style="font-size: 1.1vw;">W3Schools</h5>
+        <p style="font-size: 0.7vw;">Problems with coding, the urge to learn something, lack of understanding - you will solve all of those things on W3Schools.</p>
+        <a href="https://www.w3schools.com/" target="blank" class="btn btn-primary" style="font-size: 0.7vw;">Check it out</a>
       </div>
     </div>
     <div class="card shadow-lg m-5 rounded-4">
       <img src="imgs/kenney.png" alt="Assets pack" class="rounded-top-4">
-      <div class="card-body h-50">
-        <h5 class="card-title">Kenney</h5>
-        <p class="card-text">In need of a wide range of insanely good assets for your game project? There is more than you would ever need!</p>
-        <a href="https://kenney.nl/assets/" target="blank" class="btn btn-primary">Check it out</a>
+      <div style="padding: 1vw;">
+        <h5 style="font-size: 1.1vw;">Kenney</h5>
+        <p style="font-size: 0.7vw;">In need of a wide range of insanely good assets for your game project? There is more than you would ever need!</p>
+        <a href="https://kenney.nl/assets/" target="blank" class="btn btn-primary" style="font-size: 0.7vw;">Check it out</a>
       </div>
     </div>
   </aside>
-  <main class="bg-secondary-subtle d-flex justify-content-evenly align-items-center flex-wrap p-5 row-gap-4 col-10">
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=1" alt="Random image" ></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=2" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=3" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=4" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=5" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=6" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=7" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=8" alt="Random image"></div>
-    <div class="w-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover gallery-img" src="https://picsum.photos/500/300?random=9" alt="Random image"></div>
+  <main class="bg-secondary-subtle d-flex justify-content-evenly align-items-center flex-wrap p-5 row-gap-4 col-10" style="height: 91vh;">
+    <div id="carouselExampleIndicators" class="carousel slide w-50 h-50 shadow-lg rounded-4 m-2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner rounded-4 h-100">
+        <div class="carousel-item h-100 active" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=1" alt="Random image" class="h-100"></div>
+        <div class="carousel-item h-100" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=2" alt="Random image" class="h-100"></div>
+        <div class="carousel-item h-100" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=3" alt="Random image" class="h-100"></div>
+        <div class="carousel-item h-100" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=4" alt="Random image" class="h-100"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="w-25 h-50 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover" src="https://picsum.photos/500/300?random=5" alt="Random image"></div>
+    <div class="w-25 h-25 shadow-lg rounded-4 m-2"><img class="w-100 h-100 rounded-4 object-fit-cover" src="https://picsum.photos/500/300?random=6" alt="Random image"></div>
+    <div id="carouselExampleIndicators2" class="carousel slide w-50 h-25 shadow-lg rounded-4 m-2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner rounded-4 h-100">
+        <div class="carousel-item h-100 active" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=7" alt="Random image" class="w-100"></div>
+        <div class="carousel-item h-100" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=8" alt="Random image" class="w-100"></div>
+        <div class="carousel-item h-100" style="transition: 2s ease-in-out;"><img src="https://picsum.photos/1200/600?random=9" alt="Random image" class="w-100"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
